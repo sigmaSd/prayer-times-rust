@@ -1,0 +1,8 @@
+# Seeds for failure cases proptest has generated in the past. It is
+# automatically read and these particular cases re-run before any
+# novel cases are generated.
+#
+# It is recommended to check this file in to source control so that
+# everyone who runs the test benefits from these saved cases.
+cc 4896aa465338c68fca64166b10e66c805571dbaaada06902348afca49c35ee65 # shrinks to date = Date { year: 0, month: 0, day: 0, lat: 0.0, lon: 0.0, tz: 0.0 }
+cc 4cf685c123eeb16427763e9c2c41dd74c407e90c07180f9eb3c4b68ca479d761 # shrinks to year = 1911, month = 3, day = 11
