@@ -13,7 +13,7 @@ Developed By: Nbiba Bedis <bedis at nbiba at gmail dot com>
 Based on Cpp Code By: Mohammad Ebrahim Mohammadi Panah <ebrahim at mohammadi dot ir>
 Based on a JavaScript Code By: Hamid Zarrabi-Zadeh
 
-License: GNU LGPL v3.0
+License: GNU GPL v3.0
 
 TERMS OF USE:
     Permission is granted to use this code, with or
