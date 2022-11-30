@@ -39,7 +39,7 @@ mod tests {
         assert_eq!(rust_times, js_times);
     }
 
-    #[derive(proptest_derive::Arbitrary, Copy, Clone, SerJson, DeJson, Debug)]
+    #[derive(Copy, Clone, SerJson, DeJson, Debug)]
     struct Date {
         year: usize,
         month: usize,
