@@ -44,7 +44,6 @@ const INVALID_TIME: &str = "-----";
 
 /* convert float hours to 24h format */
 pub fn float_time_to_time24(time: f64) -> String {
-    dbg!(&time);
     if f64::is_nan(time) {
         return INVALID_TIME.into();
     }
