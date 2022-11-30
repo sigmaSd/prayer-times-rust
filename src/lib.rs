@@ -284,7 +284,7 @@ impl PrayerTimes {
                 // In original library nothing was returned
                 // Maybe I should throw an exception
                 // It must be impossible to reach here
-                0.
+                unreachable!()
             }
         }
     }
