@@ -142,9 +142,6 @@ impl PrayerTimes {
         longitude: f64,
         timezone: f64,
     ) -> [f64; TimeID::TimesCount as usize] {
-        if year == 0 {
-            return Default::default();
-        }
         self.latitude = latitude;
         self.longitude = longitude;
         self.timezone = timezone;
